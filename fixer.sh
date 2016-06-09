@@ -1,0 +1,1 @@
+x86_64-linux-gnu-g++ -pthread -shared -Wl,-O1 -Wl,-Bsymbolic-functions -Wl,-Bsymbolic-functions -Wl,-z,relro -Wl,-Bsymbolic-functions -Wl,-z,relro -g -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 h_brightness_compiled.o build/temp.linux-x86_64-3.5/brightness.o -o /home/stefan/src/skilide/brightness.cpython-35m-x86_64-linux-gnu.so
